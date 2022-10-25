@@ -1,6 +1,6 @@
 def solution(n):
-    i,j = 1,1
-    while j <= n:
-        i +=1
-        j = j * i
-    return i-1
+    num,factorial = 1,1
+    while factorial <= n:
+        num +=1
+        factorial *= num
+    return num-1
