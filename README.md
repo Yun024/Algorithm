@@ -4,8 +4,8 @@
 Python과 SQL언어 위주로 문제를 풀며 각 언어 별 하루 한개 문제 풀기를 목표로 함<br>
 
 ###### Programers
-Python Url : https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1&languages=python3 <br>
-SQL Url : https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1&languages=mysql
+Python_Url : https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1&languages=python3 <br>
+SQL_Url : https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1&languages=mysql
 
 ## Link Table
 |언어|난이도|코드|
