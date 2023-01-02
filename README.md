@@ -8,7 +8,7 @@
 > + SQL_Url : https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1&languages=mysql
 
 ## Table
-|언어|난이도|코드|
+|Language|Level|CodeLink|
 |:--------:|:--------:|:--------:|
 | Python | Lv.0 | |
 | Python | Lv.1 | |
