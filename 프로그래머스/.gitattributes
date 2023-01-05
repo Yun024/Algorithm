@@ -1,1 +1,2 @@
-Programmers/프로그래머스/SQL/**/**/*.sql linguist-detectable=true
+#Programmers/프로그래머스/SQL/**/**/*.sql linguist-detectable=true
+*.sql linguist-language=sql
