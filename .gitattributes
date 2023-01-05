@@ -1,2 +1,2 @@
-#Programmers/프로그래머스/SQL/**/**/*.sql linguist-language=sql
-*.sql linguist-language=sql
+프로그래머스/** linguist-documentation=false
+프로그래머스/** linguist-vendored=false
