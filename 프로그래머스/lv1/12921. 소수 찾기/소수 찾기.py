@@ -3,6 +3,6 @@ def solution(n):
     
     for i in range(2,int(n**0.5)+1):
         if i in num:
-            num -= set(range(2*i,n+1,i))
+            num -= set(range(i*i,n+1,i))
     return len(num)
         
