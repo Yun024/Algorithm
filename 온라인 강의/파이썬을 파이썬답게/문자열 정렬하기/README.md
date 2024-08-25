@@ -27,6 +27,11 @@
 <code>abc 7</code>
 
 ### 출력 예
-<code>abc    |n   abc  |n    abc </code>
+<code>
+abc     
+  abc   
+    abc 
+</code>
+
 
 > 출처: 프로그래머스 파이썬을 파이썬답게, https://school.programmers.co.kr/learn/courses/4008
