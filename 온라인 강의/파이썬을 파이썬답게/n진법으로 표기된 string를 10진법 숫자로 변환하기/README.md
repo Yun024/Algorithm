@@ -1,4 +1,4 @@
-# [파이썬을 파이썬답게] 수강 전에 이 문제를 풀어보세요.
+# [파이썬을 파이썬답게] n진법으로 표기된 string를 10진법 숫자로 변환하기
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/4008/lessons/13323) 
 
