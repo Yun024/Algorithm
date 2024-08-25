@@ -28,10 +28,11 @@
 </ul>
 
 <hr>
-####입력 예
+
+#### 입력 예
 <code>5 3</code>
 
-####출력 예
+#### 출력 예
 <code>1 2</code>
 
-> 출처: 프로그래머스 파이썬을 파이썬답게, https://school.programmers.co.kr/learn/courses/4008/4008-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%84-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EB%8B%B5%EA%B2%8C
+> 출처: 프로그래머스 파이썬을 파이썬답게, https://school.programmers.co.kr/learn/courses/4008
