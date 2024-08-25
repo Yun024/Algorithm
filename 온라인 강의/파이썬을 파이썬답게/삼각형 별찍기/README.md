@@ -1,6 +1,6 @@
 # [파이썬을 파이썬답게] 삼각형 별찍기
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/4008/lessons/13354) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/4008/lessons/13188) 
 
 ### 구분
 
@@ -23,11 +23,13 @@
 ### 예시
 
 <h5><입력></h5>
+  
 `3`
 
 <h5><출력></h5>
-`*`
-`**`
+  
+`*`<br> 
+`**`<br>
 `***`
 
 <hr>
