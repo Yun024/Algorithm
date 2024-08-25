@@ -14,6 +14,10 @@
 
 Empty
 
+### 제출 일자
+
+2023년 12월 5일 10:57:10
+
 ### 문제 설명
 
 <p>다음은 어느 의류 쇼핑몰에서 판매 중인 상품들의 정보를 담은 <code>PRODUCT</code> 테이블입니다. <code>PRODUCT</code> 테이블은 아래와 같은 구조로 되어있으며, <code>PRODUCT_ID</code>, <code>PRODUCT_CODE</code>, <code>PRICE</code>는 각각 상품 ID, 상품코드, 판매가를 나타냅니다.</p>
@@ -90,4 +94,4 @@ Empty
 </tbody>
       </table>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
