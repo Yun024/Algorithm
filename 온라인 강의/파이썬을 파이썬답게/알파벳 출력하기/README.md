@@ -16,18 +16,19 @@
 
 ### 예시1
 
-`입력`
+<h5>입력</h5>
 <code>0</code>
 
-`출력`
+<h5>출력</h5>
 <code>abcd...(중간생략)..xyz</code>
 
 ### 예시2
 
-`입력`
+<h5>입력</h5>
 <code>1</code>
 
-`출력`
+<h5>출력</h5>
 <code>ABCD...(중간생략)..XYZ</code>
+<hr>
 
 > 출처: 프로그래머스 파이썬을 파이썬답게, https://school.programmers.co.kr/learn/courses/4008
