@@ -1,4 +1,5 @@
-# [어서와! 자료구조와 알고리즘은 처음이지?] 5강 실습: 재귀적 이진 탐색 구현하기[문제 링크](https://school.programmers.co.kr/learn/courses/57/lessons/13777) 
+# [어서와! 자료구조와 알고리즘은 처음이지?] 5강 실습: 재귀적 이진 탐색 구현하기
+[문제 링크](https://school.programmers.co.kr/learn/courses/57/lessons/13777) 
 
 ### 구분
 
