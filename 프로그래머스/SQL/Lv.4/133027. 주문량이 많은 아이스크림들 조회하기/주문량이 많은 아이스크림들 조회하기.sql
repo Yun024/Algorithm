@@ -1,14 +1,9 @@
--- 코드를 입력하세요
-select *from(
-select flavor
-from(
-select *
-from july 
 
-union all
-
-select *
-from first_half
-)group by flavor
-order by sum(total_order) desc
-) where rownum < 4
+WITH TMP AS(
+SELECT FLAVOR, SUM(TOTAL_ORDER)
+FROM ( SELECT * FROM FIRST_HALF UNION ALL SELECT * FROM JULY)
+            GROUP BY FLAVOR
+            ORDER BY 2 DESC)
+    SELECT FLAVOR FROM TMP WHERE 1=1 AND ROWNUM<4;
+    
+    

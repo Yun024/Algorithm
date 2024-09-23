@@ -1,4 +1,4 @@
-# [unrated] 주문량이 많은 아이스크림들 조회하기 - 133027 
+# [level 4] 주문량이 많은 아이스크림들 조회하기 - 133027 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/133027) 
 
@@ -13,6 +13,10 @@
 ### 채점결과
 
 Empty
+
+### 제출 일자
+
+2024년 1월 3일 17:1:39
 
 ### 문제 설명
 
@@ -244,4 +248,4 @@ Empty
 </tbody>
       </table>
 
-> 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
