@@ -1,4 +1,4 @@
-*[Url](https://www.hackerrank.com/challenges/revising-the-select-query/problem?isFullScreen=true)*
+## Url : https://www.hackerrank.com/challenges/revising-the-select-query/problem?isFullScreen=true
 
 SELECT *
 FROM CITY
