@@ -11,7 +11,7 @@
 | Python | *[Programmers](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1&languages=python3)* |*[🔗](https://github.com/Yun024/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/Python)* |
 | Python | *[Baekjoon](https://www.acmicpc.net/problemset)* |*[🔗](https://github.com/Yun024/Algorithm/tree/main/%EB%B0%B1%EC%A4%80)*|
 | SQL | *[Programmers](https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&page=1&languages=mysql)* |*[🔗](https://github.com/Yun024/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/SQL)*|
-| SQL | *[HackerRank](https://www.hackerrank.com/domains/sql)* |*[🔗](https://github.com/Yun024/Algorithm/tree/main/%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC/Easy)*|
+| SQL | *[HackerRank](https://www.hackerrank.com/domains/sql)* |*[🔗](https://github.com/Yun024/Algorithm/tree/main/%ED%95%B4%EC%BB%A4%EB%9E%AD%ED%81%AC)*|
 
 ------
 
