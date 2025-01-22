@@ -11,10 +11,13 @@ def prime(m):
                 is_prime[j] = False
     return [j for j,i in enumerate(is_prime) if i]
 primes = prime(m)
-dic_m = {i:1 for i in primes}
+set_m = set(primes)
 for i in num_list:
     ans = 0
     for j in [c for c in primes if c <= i//2 ]:
-        if dic_m.get(i-j,0):
+        if (i-j) in set_m:
             ans +=1
     print(ans)
+
+
+
