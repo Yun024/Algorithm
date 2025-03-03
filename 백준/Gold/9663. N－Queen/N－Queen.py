@@ -1,26 +1,22 @@
-def backtrack(n, start, col, diag1, diag2):
+def backtrack(n, start, col, lc, rc):
     if start == n:
         global ans
-        ans += 1
+        ans +=1
         return 
     
     for i in range(n):
-        if not col[i] and not diag1[start + i] and not diag2[start - i + n - 1]:
+        if not col[i] and not lc[start-i] and not rc[start+i] :
             col[i] = True
-            diag1[start + i] = True
-            diag2[start - i + n - 1] = True
-
-            backtrack(n, start + 1, col, diag1, diag2)
-
-            col[i] = False
-            diag1[start + i] = False
-            diag2[start - i + n - 1] = False
+            lc[start-i] = True
+            rc[start+i] = True
+            backtrack(n, start+1, col, lc, rc)
+            lc[start-i] = False
+            rc[start+i] = False
+            col[i]= False
 
 n = int(input())
-ans = 0
+ans,start = 0,0
 col = [False] * n
-diag1 = [False] * (2 * n - 1)  # row + col (↘ 대각선)
-diag2 = [False] * (2 * n - 1)  # row - col + (n-1) (↙ 대각선)
-
-backtrack(n, 0, col, diag1, diag2)
+lc,rc = [False] * (2*n), [False] * (2*n)
+backtrack(n, start, col, lc, rc)
 print(ans)
