@@ -30,12 +30,4 @@ def solution(sequence, k):
         sum_num -= num.popleft()  
     
     diff = [i[1] - i[0] for i in answer]
-    
-    return answer[diff.index(min(diff))]
-            
-        
-            
-            
-        
-    
-    
+    return answer[diff.index(min(diff))]   
