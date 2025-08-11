@@ -2,29 +2,28 @@ from collections import deque
 import sys
 input = sys.stdin.readline
 
-
-def solution(start,end):
-
-    ans = 0
+def solution(row,col):
+    
+    matrix = [[0]*col for _ in range(row)]
+    matrix[0][0] = 1
     directions = [[0,1],[1,0]]
-    q = deque()
-    q.append(start)
-    ex,ey = end
+    
+    for x in range(row):
+        for y in range(col):
+            for dx,dy in directions:
+                nx,ny = x+dx,y+dy
+                if 0 <= nx < row and 0 <= ny < col:
+                    if not matrix[nx][ny]:
+                        matrix[nx][ny] = matrix[x][y]
+                    else:
+                        matrix[nx][ny] += matrix[x][y]
 
-    while q:
-        x,y = q.popleft()
-        for dx,dy in directions:
-            nx,ny = x+dx,y+dy
-            if 0 <= nx < ex and 0 <= ny < ey:
-                if nx == ex-1 and ny == ey-1:
-                    ans +=1
-                else:
-                    q.append([nx,ny])
-
-    return ans
+    return matrix[-1][-1]
 
 n,m,k = map(int,input().split())
 if not k:
-    print(solution([0,0],[n,m]))
+    print(solution(n,m))
 else:
-    print(solution([0,0],[(k-1)//m + 1 , (k-1)%m+1]) * solution([(k-1)//m,(k-1)%m],[n,m]))
+    print(solution((k-1)//m+1,(k-1)%m+1) * solution(n - (k-1)//m , m - (k-1)%m))
+
+
